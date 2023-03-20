@@ -19,6 +19,7 @@ $(function hour() {
   $('.time-block').each(function(){
     // Able to get the current hour using dayjs.
     var currentHour = dayjs().hour();
+    // Took the hour value from the time block ID convert it to a number
     var hour = parseInt($(this).attr('id').replace('hour-', ''));
 
 
