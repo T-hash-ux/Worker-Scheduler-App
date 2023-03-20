@@ -36,6 +36,7 @@ $(function hour() {
   $('.time-block').each(function(){
     // Extract the hour value from the time block ID
     var hour = $(this).attr('id');
+    // Get the corresponding description from local storage
     var description = localStorage.getItem(hour);
 
     if(description) {
