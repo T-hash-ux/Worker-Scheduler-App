@@ -5,7 +5,7 @@
 $(function hour() {
   var today = dayjs();
   $('#currentDay').text(today.format('MMM D, YYYY'));
-
+  // Set this function to get the current date and format it
   $('.saveBtn').on('click', function() {
     var hour = $(this).parent().attr('id');
     var description =$(this).siblings('.description').val();
