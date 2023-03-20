@@ -32,7 +32,9 @@ $(function hour() {
       $(this).addClass('future');
     }
   });
+  // Loop through each time block again.
   $('.time-block').each(function(){
+    // Extract the hour value from the time block ID
     var hour = $(this).attr('id');
     var description = localStorage.getItem(hour);
 
