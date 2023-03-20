@@ -7,6 +7,7 @@ $(function hour() {
   $('#currentDay').text(today.format('MMM D, YYYY'));
   // Set this function to get the current date and format it
   $('.saveBtn').on('click', function() {
+    // Extract the hour value from the parent element "id"
     var hour = $(this).parent().attr('id');
     var description =$(this).siblings('.description').val();
     localStorage.setItem(hour, description);
