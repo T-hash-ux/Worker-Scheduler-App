@@ -23,7 +23,7 @@ $(function hour() {
     var hour = parseInt($(this).attr('id').replace('hour-', ''));
 
 
-    
+    // Add the appropriate class to the time block depending if its past,present,or future. 
     if(hour < currentHour){
       $(this).addClass('past');
     }else if(hour === currentHour){
