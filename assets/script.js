@@ -9,6 +9,7 @@ $(function hour() {
   $('.saveBtn').on('click', function() { /* Listen for click events on the button to save. */
     // Extract the hour value from the parent element "id"
     var hour = $(this).parent().attr('id');
+    // Extract the description value from the sibling element with class "description"
     var description =$(this).siblings('.description').val();
     localStorage.setItem(hour, description);
 
