@@ -11,6 +11,7 @@ $(function hour() {
     var hour = $(this).parent().attr('id');
     // Extract the description value from the sibling element with class "description"
     var description =$(this).siblings('.description').val();
+    // Saved the value of hour and description to the local storage.
     localStorage.setItem(hour, description);
 
   });
