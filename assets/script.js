@@ -39,6 +39,7 @@ $(function hour() {
     // Get the corresponding description from local storage
     var description = localStorage.getItem(hour);
 
+// If a description exists, insert it into the corresponding "description" element
     if(description) {
       $(this).children('.description').val(description);
 
