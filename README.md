@@ -14,3 +14,11 @@ once the user scrolls down they are presented with time blocks that is colored b
 Next the user will enter text into the blocks and then click the blue button to save their content. ![enter text](assets/images/Image-of-Schedule-02.png)
 
 Once the page is refreshed the user can see that the text they entered presist.
+
+## Credits
+
+- Matthew Lomard
+- Sarah Miller
+
+## License
+MIT License
